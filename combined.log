@@ -1,0 +1,23 @@
+{"level":"info","message":"Server running on port 3001","service":"ach-processing-backend","timestamp":"2025-09-22T18:10:34.842Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"ach-processing-backend","timestamp":"2025-09-22T18:10:43.429Z"}
+{"level":"info","message":"Process terminated","service":"ach-processing-backend","timestamp":"2025-09-22T18:10:43.432Z"}
+{"level":"info","message":"Server running on port 3001","service":"ach-processing-backend","timestamp":"2025-09-22T18:11:35.900Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"ach-processing-backend","timestamp":"2025-09-22T18:11:49.687Z"}
+{"level":"info","message":"Process terminated","service":"ach-processing-backend","timestamp":"2025-09-22T18:11:49.689Z"}
+{"level":"info","message":"Server running on port 3001","service":"ach-processing-backend","timestamp":"2025-09-22T18:11:55.083Z"}
+{"level":"info","message":"Server running on port 3001","service":"ach-processing-backend","timestamp":"2025-09-24T16:04:02.273Z"}
+{"email":"test@example.com","level":"warn","message":"Login attempt with invalid email","service":"ach-processing-backend","timestamp":"2025-09-24T16:04:42.436Z"}
+{"email":"admin@achprocessing.com","level":"warn","message":"Login attempt with invalid email","service":"ach-processing-backend","timestamp":"2025-09-24T16:06:35.168Z"}
+{"email":"admin@achprocessing.com","level":"warn","message":"Login attempt with invalid email","service":"ach-processing-backend","timestamp":"2025-09-24T16:34:30.120Z"}
+{"hint":"Double check your Supabase `anon` or `service_role` API key.","level":"error","message":"Registration error Invalid API key","service":"ach-processing-backend","timestamp":"2025-09-24T16:42:51.722Z"}
+{"hint":"Double check your Supabase `anon` or `service_role` API key.","level":"error","message":"Registration error Invalid API key","service":"ach-processing-backend","timestamp":"2025-09-24T16:43:25.738Z"}
+{"hint":"Double check your Supabase `anon` or `service_role` API key.","level":"error","message":"Registration error Invalid API key","service":"ach-processing-backend","timestamp":"2025-09-24T16:43:31.913Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"ach-processing-backend","timestamp":"2025-09-24T16:44:41.157Z"}
+{"level":"info","message":"Process terminated","service":"ach-processing-backend","timestamp":"2025-09-24T16:44:41.158Z"}
+{"level":"info","message":"Server running on port 3001","service":"ach-processing-backend","timestamp":"2025-09-24T16:44:51.105Z"}
+{"hint":"Double check your Supabase `anon` or `service_role` API key.","level":"error","message":"Registration error Invalid API key","service":"ach-processing-backend","timestamp":"2025-09-24T16:45:02.352Z"}
+{"email":"admin@achprocessing.com","level":"warn","message":"Login attempt with invalid email","service":"ach-processing-backend","timestamp":"2025-09-24T16:45:19.296Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"ach-processing-backend","timestamp":"2025-09-24T16:47:07.671Z"}
+{"level":"info","message":"Process terminated","service":"ach-processing-backend","timestamp":"2025-09-24T16:47:07.676Z"}
+{"level":"info","message":"Server running on port 3001","service":"ach-processing-backend","timestamp":"2025-09-24T16:47:54.589Z"}
+{"level":"error","message":"Registration error Default organization not found","service":"ach-processing-backend","stack":"Error: Default organization not found\n    at /home/candi/Ach-processing-system/backend/dist/routes/auth.js:128:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-09-24T16:48:31.703Z"}

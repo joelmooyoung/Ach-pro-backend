@@ -1,0 +1,16 @@
+
+> ach-processing-backend@1.0.0 start
+> node dist/index.js
+
+⚠️  Node.js 18 and below are deprecated and will no longer be supported in future versions of @supabase/supabase-js. Please upgrade to Node.js 20 or later. For more information, visit: https://github.com/orgs/supabase/discussions/37217
+[32minfo[39m: Server running on port 3001 {"service":"ach-processing-backend","timestamp":"2025-09-22T18:11:55.083Z"}
+ACH Processing System API running on port 3001
+Environment: production
+::ffff:127.0.0.1 - - [22/Sep/2025:18:21:03 +0000] "GET / HTTP/1.1" 404 65 "-" "curl/7.81.0"
+::ffff:127.0.0.1 - - [22/Sep/2025:18:21:10 +0000] "GET /api/auth/health HTTP/1.1" 404 65 "-" "curl/7.81.0"
+::1 - - [22/Sep/2025:18:22:19 +0000] "GET / HTTP/1.1" 404 65 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+::1 - - [22/Sep/2025:18:22:21 +0000] "GET / HTTP/1.1" 404 65 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+::1 - - [22/Sep/2025:18:22:21 +0000] "GET / HTTP/1.1" 404 65 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+::1 - - [22/Sep/2025:18:22:25 +0000] "GET /api HTTP/1.1" 404 65 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+::1 - - [22/Sep/2025:18:26:58 +0000] "GET /api/transactions/stats/summary HTTP/1.1" 401 49 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+::1 - - [22/Sep/2025:18:26:58 +0000] "GET /api/nacha/files?page=1&limit=10 HTTP/1.1" 401 49 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"

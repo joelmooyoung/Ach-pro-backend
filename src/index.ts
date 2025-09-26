@@ -26,8 +26,10 @@ import { reportRoutes } from './routes/reports';
 
 import { ApiResponse } from './types';
 
-// Load environment variables
-dotenv.config({ path: './config.env' });
+// Load environment variables - only in development
+if (process.env.NODE_ENV !== 'production') {
+  dotenv.config({ path: './config.env' });
+}
 
 // Validate required environment variables
 const requiredEnvVars = [

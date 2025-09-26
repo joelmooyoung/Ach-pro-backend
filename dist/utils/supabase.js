@@ -6,10 +6,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.supabaseAdmin = exports.supabase = void 0;
 const supabase_js_1 = require("@supabase/supabase-js");
 const dotenv_1 = __importDefault(require("dotenv"));
-dotenv_1.default.config({ path: './config.env' });
+if (process.env.NODE_ENV !== 'production') {
+    dotenv_1.default.config({ path: './config.env' });
+}
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_ANON_KEY;
 if (!supabaseUrl || !supabaseKey) {
+    console.error('Missing Supabase configuration:');
+    console.error('SUPABASE_URL:', supabaseUrl ? 'Set' : 'Missing');
+    console.error('SUPABASE_ANON_KEY:', supabaseKey ? 'Set' : 'Missing');
     throw new Error('Missing Supabase configuration');
 }
 exports.supabase = (0, supabase_js_1.createClient)(supabaseUrl, supabaseKey);

@@ -23,7 +23,9 @@ const holidays_1 = require("./routes/holidays");
 const organizations_1 = require("./routes/organizations");
 const ach_1 = require("./routes/ach");
 const reports_1 = require("./routes/reports");
-dotenv_1.default.config({ path: './config.env' });
+if (process.env.NODE_ENV !== 'production') {
+    dotenv_1.default.config({ path: './config.env' });
+}
 const requiredEnvVars = [
     'SUPABASE_URL',
     'SUPABASE_SERVICE_ROLE_KEY',
